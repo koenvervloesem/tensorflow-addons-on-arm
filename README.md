@@ -35,6 +35,7 @@ TensorFlow Addons uses [Bazel](https://bazel.build) as its build system. As Rasp
 
 ```shell
 git clone https://github.com/koenvervloesem/bazel-on-arm.git
+cd bazel-on-arm
 sudo make requirements
 make bazel
 sudo make install
