@@ -25,6 +25,10 @@ Currently TensorFlow Addons on ARM only builds TensorFlow Addons for the followi
 
 If you manage to make another combination work, please contribute your patches so other people can benefit too.
 
+## Download the wheel
+
+If you are not interested in building TensorFlow Addons yourself, you can download a [pre-built wheel of TensorFlow Addons 0.7.1 for Python 3.7 and armv7l](https://github.com/koenvervloesem/tensorflow-addons-on-arm/releases/tag/v0.7.1). This works with Q-engineering's TensorFlow 2.1.0 wheel, which you still have to install.
+
 ## Build requirements 
 
 First make sure to have all build requirements.
