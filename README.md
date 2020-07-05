@@ -47,6 +47,8 @@ sudo make install
 
 Note that this installs a whopping 1 GB of JDK files. The build itself takes roughly half an hour on a Raspberry Pi 4B.
 
+If you don't want to build Bazel yourself, you can download one of the [binary releases](https://github.com/koenvervloesem/bazel-on-arm/releases) of the Bazel on ARM project.
+
 ### TensorFlow
 
 I tested this project in combination with Q-engineering's Python wheel tensorflow-2.1.0-cp37-cp37m-linux_armv7l.whl in their repository [TensorFlow-Raspberry-Pi](https://github.com/Qengineering/TensorFlow-Raspberry-Pi). They have excellent installation instructions and they also explain how to build the wheel from source: [Install TensorFlow 2.1.0 on Raspberry Pi 4](https://qengineering.eu/install-tensorflow-2.1.0-on-raspberry-pi-4.html).
